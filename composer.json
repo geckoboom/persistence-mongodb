@@ -1,0 +1,26 @@
+{
+    "name": "whirlwind-framework/persistence-mongodb",
+    "description": "Whirlwind framework mongodb library",
+    "keywords": [
+        "persistence mongodb"
+    ],
+    "authors": [
+        {
+            "name": "Alexander Stepanenko",
+            "email": "alex.stepanenko@gmail.com"
+        }
+    ],
+    "type": "library",
+    "license": "BSD-3-Clause",
+    "minimum-stability": "dev",
+    "require": {
+        "php": "~7.4||>=8.0",
+        "ext-mongodb": "*",
+        "whirlwind-framework/framework": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Whirlwind\\Persistence\\Mongo\\": "src"
+        }
+    }
+}
